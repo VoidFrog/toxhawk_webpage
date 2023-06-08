@@ -1,0 +1,58 @@
+.header {
+  position: relative;
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem 5rem 0rem 5rem;
+  background-color: #22294c;
+}
+
+.underline {
+  height: 3rem;
+}
+
+.underline div {
+  margin-top: 1.7rem;
+  height: 0%;
+  width: 100%;
+}
+
+.underline:hover div {
+  border-bottom: 0.15rem solid #82ef53;
+  animation-name: underline_on_hover;
+  animation-duration: 0.4s;
+}
+
+.bottom_underline {
+  outline: 0.1rem solid rgba(255, 255, 255, 0.5);
+}
+
+.bottom_underline_container {
+  width: 100%;
+  background-color: #22294c;
+  padding: 0rem 5rem 5rem 5rem;
+}
+
+.logo {
+  max-width: 200px;
+  width: auto;
+  height: auto;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+@keyframes underline_on_hover {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
