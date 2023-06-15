@@ -38,3 +38,11 @@
   overflow: hidden;
   font-size: 0.8rem;
 }
+
+.article p:nth-child(2) {
+  text-transform: none;
+}
+
+.article:hover {
+  filter: drop-shadow(4px 2px 0px #000);
+}

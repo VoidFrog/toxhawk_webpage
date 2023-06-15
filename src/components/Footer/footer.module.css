@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   background-color: var(--color-midnight-blue-darkest);
+  overflow: hidden;
 }
 
 .logo_small {
