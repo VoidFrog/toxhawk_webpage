@@ -1,0 +1,33 @@
+.article_container {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.article_wrapper {
+  width: 80%;
+  max-width: 75rem;
+}
+
+.article_wrapper p {
+  margin: 1.5rem;
+}
+
+.article_wrapper h1,
+.article_wrapper h2,
+.article_wrapper h3,
+.article_wrapper h4,
+.article_wrapper h5,
+.article_wrapper h6 {
+  margin: 2.5rem;
+}
+
+.article_wrapper ul {
+  margin: 2rem;
+}
+
+.article_wrapper li {
+  margin: 0.5rem;
+}

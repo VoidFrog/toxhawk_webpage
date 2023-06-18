@@ -26,7 +26,7 @@ function Collaborators() {
   return (
     <div className={styles.collaborators_container}>
       <p>Partnerzy</p>
-      {generateCollaboratorTiles([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])}
+      {generateCollaboratorTiles([1, 2, 3, 4, 5])}
     </div>
   );
 }

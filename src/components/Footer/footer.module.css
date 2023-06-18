@@ -6,6 +6,7 @@
   justify-content: center;
   background-color: var(--color-midnight-blue-darkest);
   overflow: hidden;
+  margin-top: auto;
 }
 
 .logo_small {

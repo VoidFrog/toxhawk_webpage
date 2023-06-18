@@ -44,11 +44,6 @@ export default function Home() {
         <ArticleCarousel {...{ allArticles }} />
         <ImageCarousel {...{ allImages }} />
         <Collaborators />
-        {/* 
-          tutaj jeszcze sekcje:
-            -współprace
-            -partnerzy
-        */}
         <div className={styles.contact}>
           <p>Kontakt</p>
           <div className={styles.icon_container}>

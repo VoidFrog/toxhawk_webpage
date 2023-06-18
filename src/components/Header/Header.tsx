@@ -18,23 +18,23 @@ function Header() {
             <div></div>
           </div>
           <div className={styles.underline}>
-            <Link href="/">Misja</Link>
+            <Link href="/mission">Misja</Link>
             <div></div>
           </div>
           <div className={styles.underline}>
-            <Link href="/">Projekty</Link>
+            <Link href="/projects">Projekty</Link>
             <div></div>
           </div>
           <div className={styles.underline}>
-            <Link href="/">Pipeline</Link>
+            <Link href="/pipeline">Pipeline</Link>
             <div></div>
           </div>
           <div className={styles.underline}>
-            <Link href="/">Wiadomości</Link>
+            <Link href="/news">Wiadomości</Link>
             <div></div>
           </div>
           <div className={styles.underline}>
-            <Link href="/">Kontakt</Link>
+            <Link href="/contact">Kontakt</Link>
             <div></div>
           </div>
           <div>
