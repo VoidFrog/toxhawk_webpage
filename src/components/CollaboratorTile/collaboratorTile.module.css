@@ -82,7 +82,6 @@
 
 .collaborator_tile p {
   display: -webkit-box;
-  text-transform: capitalize;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
