@@ -1,8 +1,6 @@
 # **Dlaczego czad nie jest czad?**
 
-Słowa &#8220;czad&#8221; często używamy, kiedy coś się nam podoba lub z chęcią wyrażenia swojej aprobaty
-w stosunku do danego tematu.  
-Jednak chodzi tutaj o zupełnie inny czad, a dokładnie o tlenek węgla (II), czyli CO.
+Słowa &#8220;czad&#8221; często używamy, kiedy coś się nam podoba lub z chęcią wyrażenia swojej aprobaty w stosunku do danego tematu. Jednak chodzi tutaj o zupełnie inny czad, a dokładnie o tlenek węgla (II), czyli CO.
 
 Czad to bardzo groźny, nieco lżejszy od powietrza, bezwonny i bezbarwny gaz, który przez swoje właściwości z łatwością miesza się
 z powietrzem. Dodatkowo jest praktycznie niewykrywalny przez zmysły człowieka, czego skutkiem jest szereg tragcznych wypadków.

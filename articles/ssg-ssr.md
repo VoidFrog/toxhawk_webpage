@@ -12,6 +12,19 @@ You can use Static Generation for many types of pages, including:
 - E-commerce product listings
 - Help and documentation
 
+:::div{.klasa}
+::p[if you chose xxx, you should also use yyy somewhere…]{.paragraf}
+:::div{.podklasa}
+no japierdole
+:::
+
+Lift($L$) can be determined by Lift Coefficient ($C_L$) like the following
+equation.
+
+$$
+L = \frac{1}{2} \rho v^2 S C_L
+$$
+
 You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
 
 On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.

@@ -74,9 +74,7 @@ function Mission() {
       {/* some kind of mp4 or animation, not my business rn */}
       {/* third paragraph */}
       <div className={styles.paragraph_container + " " + styles.paragraph}>
-        <div
-          className={styles.paragraph_wrapper_wide + " " + styles.flex_column}
-        >
+        <div className={styles.paragraph_wrapper + " " + styles.flex_column}>
           <div>
             <p>
               Inicjatywa Toxhawk jest naszą odpowiedzią na zaistniałą sytuację.
@@ -101,7 +99,7 @@ function Mission() {
       {/* cards with descriptions about team members */}
       <div className={styles.cards_container}>
         {members.map((member) => {
-          return <MissionMemberCard {...member} />;
+          return <MissionMemberCard key={crypto.randomUUID()} {...member} />;
         })}
       </div>
     </div>

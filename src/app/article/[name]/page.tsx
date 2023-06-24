@@ -20,6 +20,7 @@ function page({ params }: { params: { name: string } }) {
     name = article.name;
     content = article.content;
   }
+  // console.log(article?.content);
   return (
     <div className={styles.article_container}>
       <div

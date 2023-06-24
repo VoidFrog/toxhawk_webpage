@@ -31,3 +31,7 @@
 .article_wrapper li {
   margin: 0.5rem;
 }
+
+.article_wrapper .tozp {
+  color: red;
+}

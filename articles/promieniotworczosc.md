@@ -10,8 +10,7 @@ Rozpadowi towarzyszy również emisja cząstek alfa i beta oraz promieniowania r
 
 Radioaktywne izotopy występują zarówno w środowisku naturalnym np. $\ce{^{3}_{1}H}$ (tryt) występujący w naszej atmosferze, czy $\ce{^{40}_{19}K}$, którego można spotkać w minerałach lub owocach. Istnieją również takie izotopy radioaktywne, które możemy znaleźć nawet w organizmie człowieka - przykładowo $\ce{^{14}_{6}C}$. Wyróżniamy także nukleony stworzone sztucznie jak $\ce{^{239}_{94}Pu}$.
 
-Cały świat lekko promieniuje, każdy z nas emituje bardzo niskie wartości promieniowania radioaktywnego co dowodzi, że z promieniotwórczością nie spotykamy się tylko w miejscu katastrofy w Czarnobylu lub innych elektrowniach jądrowych. Dlatego też ten wstęp otwiera serię artykułów, w której przybliżymy Wam te najbardziej niebezpieczne i często występujące wokół nas radioaktywne izotopy pierwiastków. 
-
+Cały świat lekko promieniuje, każdy z nas emituje bardzo niskie wartości promieniowania radioaktywnego co dowodzi, że z promieniotwórczością nie spotykamy się tylko w miejscu katastrofy w Czarnobylu lub innych elektrowniach jądrowych. Dlatego też ten wstęp otwiera serię artykułów, w której przybliżymy Wam te najbardziej niebezpieczne i często występujące wokół nas radioaktywne izotopy pierwiastków.
 
 Źródła:
 
@@ -20,4 +19,3 @@ https://pl.wikipedia.org/wiki/Radioaktywno%C5%9B%C4%87
 https://zpe.gov.pl/a/promieniotworczosc/Dq1XLas6H
 
 https://pl.wikipedia.org/wiki/Promieniowanie_alfa
-

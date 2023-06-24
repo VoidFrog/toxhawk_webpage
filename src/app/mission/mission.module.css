@@ -42,15 +42,6 @@
   text-align: center;
 }
 
-.paragraph_wrapper_wide {
-  width: 80%;
-  max-width: 38rem;
-}
-
-.paragraph_wrapper_wide p {
-  text-align: center;
-}
-
 .paragraph {
   margin-top: 6rem;
 }

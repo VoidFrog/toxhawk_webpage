@@ -3,8 +3,14 @@ import matter from "gray-matter";
 import fs from "fs";
 import { remark } from "remark";
 import html from "remark-html";
+import remarkMath from "remark-math";
+import remarkRehype from "remark-rehype/lib";
+import rehypeKatex from "rehype-katex";
+import rehypeStringify from "rehype-stringify";
+import remarkDirective from "remark-directive";
 
 import { article } from "@/types/article_type";
+import handle_css_classes from "@/lib/html_tree_handler";
 
 function getAllArticles() {
   const articlesDirectory = path.join(process.cwd(), "articles");
@@ -18,6 +24,12 @@ function getAllArticles() {
 
     const md_to_html = remark()
       .use(html, { sanitize: true })
+      .use(remarkDirective)
+      .use(handle_css_classes)
+      .use(remarkMath)
+      .use(remarkRehype)
+      .use(rehypeKatex)
+      .use(rehypeStringify)
       .processSync(matterResult.content)
       .toString();
 
