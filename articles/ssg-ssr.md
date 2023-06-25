@@ -12,11 +12,30 @@ You can use Static Generation for many types of pages, including:
 - E-commerce product listings
 - Help and documentation
 
-:::div{.klasa}
-::p[if you chose xxx, you should also use yyy somewhere…]{.paragraf}
-:::div{.podklasa}
+:::div{.section_container}
+::p[if you chose xxx, you should also use yyy somewhere…]{.abc123}
+:::div{.section_column}
+
+## jebac jebac i sie nie bac
+
 no japierdole
+
+gowno dupa kupa
+
+chuj chuj chuj
 :::
+
+:::::div{.section_container}
+::::div{.section_column}
+
+:::div{.section_row}
+dupa dupa
+
+dupa dupa
+:::
+dupa dupa
+::::
+:::::
 
 Lift($L$) can be determined by Lift Coefficient ($C_L$) like the following
 equation.
