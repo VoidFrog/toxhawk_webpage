@@ -6,6 +6,7 @@ import icon_phone from "@/images/icon_phone.svg";
 import icon_instagram from "@/images/icon_instagram.svg";
 import icon_facebook from "@/images/icon_facebook.svg";
 import icon_email from "@/images/icon_email.svg";
+import logo_miasta_krakow from "@/images/logo_miasta_krakow.svg";
 
 import collaboration_logo from "@/images/collaboration_logo.svg";
 import collaboration_logo_text from "@/images/collaboration_logo_text.svg";
@@ -22,6 +23,17 @@ export default function Home() {
     collaboration_logo,
     collaboration_logo_text,
     collaboration_logo,
+    collaboration_logo_text,
+    logo_miasta_krakow,
+    collaboration_logo_text,
+    collaboration_logo_text,
+    collaboration_logo_text,
+    collaboration_logo_text,
+    collaboration_logo_text,
+    collaboration_logo_text,
+    collaboration_logo_text,
+    collaboration_logo_text,
+    collaboration_logo_text,
     collaboration_logo_text,
     // collaboration_logo,
   ];

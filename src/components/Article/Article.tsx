@@ -6,6 +6,9 @@ import { article } from "@/types/article_type";
 
 function Article(props: { article: article }) {
   const { article } = props;
+
+  article.content = article.content.replaceAll("<p></p>", "");
+
   const startingIndex = article.content.indexOf("<p>");
   const lastIndex = article.content.indexOf("</p>");
   const firstParagraph = article.content
@@ -13,6 +16,8 @@ function Article(props: { article: article }) {
     .replaceAll("<br>", "")
     .replaceAll("<strong>", "")
     .replaceAll("</strong>", "");
+
+  console.log(article.content);
 
   return (
     <div className={styles.article}>
