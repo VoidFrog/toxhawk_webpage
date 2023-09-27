@@ -1,0 +1,78 @@
+.bar_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 0.5rem 0 0.5rem;
+  width: 100%;
+  min-height: 1rem;
+  border-radius: 1rem;
+  background-color: var(--color-midnight-blue);
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.slider {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  width: 50%;
+  transform: translate3d(0, 1.25rem, 0);
+}
+
+.progress_indicator {
+  position: relative;
+  min-width: 1.5rem;
+  min-height: 1.5rem;
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+  border-radius: 1.5rem;
+  background-color: var(--color-midnight-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(0.75rem);
+}
+
+.progress_indicator div {
+  min-width: 1rem;
+  min-height: 1rem;
+  border-radius: 1rem;
+  background-color: var(--color-lime-green);
+}
+
+.progress_phase {
+  width: 100%;
+  min-height: 0.4rem;
+  background-color: white;
+}
+
+.bar_wrapper .progress_phase:nth-child(1) {
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.bar_wrapper .progress_phase:last-child {
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+
+.name_labels {
+  display: flex;
+  flex-direction: row;
+}
+
+.name_labels div {
+  /* padding-left: 0.5rem; */
+  width: 100%;
+  text-align: center;
+}
+
+/* .progress_color_changer {
+  width: 100%;
+  min-height: 0.5rem;
+  opacity: 0.3;
+  background-color: red;
+  transform: translateY(2.25rem);
+} */
