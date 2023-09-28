@@ -1,0 +1,26 @@
+.container {
+  width: 6rem;
+  height: 7rem;
+  background-color: var(--color-midnight-blue-darker);
+}
+
+.day_info {
+  height: 6.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.day_number {
+  font-size: 2.5rem;
+}
+
+.day_name {
+  font-size: 0.6rem;
+}
+
+.event_highlight {
+  min-height: 0.5rem;
+  background-color: transparent;
+}
